@@ -1,7 +1,5 @@
 # Indian Startup Ecosystem Analysis
 
-![Indian Startup Ecosystem](images/startup_ecosystem.jpg)
-
 Welcome to the **Indian Startup Ecosystem Analysis** project! In this repository, we delve deep into the vibrant Indian startup funding landscape, exploring data from 2019 to 2021 to uncover key trends, funding patterns, and factors driving startup success. Our aim is to provide valuable insights for entrepreneurs, investors, and decision-makers interested in understanding the dynamics of the Indian startup ecosystem.
 
 ## Table of Contents
@@ -42,10 +40,13 @@ We put our hypotheses to the test using statistical methods. Through the Kruskal
 We conclude our analysis by discussing the impact of the COVID-19 pandemic, highlighting thriving cities and sectors, and emphasizing the significance of diversification and adaptability. Our recommendations offer guidance to startups, investors, and policymakers in fostering an environment conducive to innovation, competition, and sustained growth.
 
 ## Repository Structure
-- `data/`: Contains the datasets used for analysis.
-- `images/`: Holds images used in the README.
-- `notebooks/`: Jupyter notebooks detailing data analysis and visualizations.
-- `README.md`: The current README file.
+- `Indian _Ecosystem_Analysis.ipynb`: the full analysis notebook (cleaning, exploration, visualisations and hypothesis tests).
+- `startup_funding2018.csv`, `startup_funding2019.csv`: funding data used as source files.
+- `df18.csv`, `df_19.csv`, `df_2020.csv`, `df_2021.csv`: per-year datasets for 2018-2021.
+- `Clean_Data_18_19_20_21_snyk.csv`: combined, cleaned dataset (a `.txt` copy is also included).
+- `visual_ready.csv`: dataset prepared for the visualisations.
+- `requirements.txt`: Python dependencies.
+- `LICENSE`: MIT licence.
 
 ## Acknowledgements
 We acknowledge the contributions of Azubi Africa for their comprehensive programs. Visit [Azubi Africa](https://azubi.co.ke/) to learn more about their impactful initiatives.
