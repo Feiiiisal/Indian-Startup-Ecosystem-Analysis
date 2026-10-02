@@ -48,6 +48,18 @@ We conclude our analysis by discussing the impact of the COVID-19 pandemic, high
 - `requirements.txt`: Python dependencies.
 - `LICENSE`: MIT licence.
 
+## Setup
+
+```bash
+pip install -r requirements.txt
+jupyter notebook "Indian _Ecosystem_Analysis.ipynb"
+```
+
+Part of the data is read from an Azure SQL database. Copy `.env.example` to
+`.env` and fill in the connection details you were given (the notebook reads
+`SERVER`, `DATABASE`, `USERNAME` and `PASSWORD` from it). Never commit `.env`.
+The CSV files in this repository can be used without database access.
+
 ## Acknowledgements
 We acknowledge the contributions of Azubi Africa for their comprehensive programs. Visit [Azubi Africa](https://azubi.co.ke/) to learn more about their impactful initiatives.
 
